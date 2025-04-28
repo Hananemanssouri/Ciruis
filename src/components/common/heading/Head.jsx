@@ -11,7 +11,7 @@ const Head = () => {
             <div className="container flexSB">
                 <div className="container flexSB">
                     <div className="logo" id='titre'>
-                        <h1>CIRUIS</h1>
+                        <h1>CIRIUS</h1>
                         <span>Online lernen und Zertifikate erwerben</span>
                        
 

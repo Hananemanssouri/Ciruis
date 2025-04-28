@@ -96,7 +96,7 @@ const Footer = () => {
         </footer>
         <div className="legal">
         <p>
-        Copyright  | Diese Vorlage wurde erstellt mit <i className='fa fa-heart'></i> by Hanane Mnassouri
+        Copyright  | Diese Vorlage wurde erstellt mit <i className='fa fa-heart'></i> by Hanane Manssouri
         </p>
         </div>
     </>
