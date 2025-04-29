@@ -46,3 +46,116 @@
   background-color: #fff;
   color: #1eb2a6;
 }
+@media screen and (max-width: 768px) {
+  .testimonal .items {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .testimonal img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimonal i {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .testimonal p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .testimonal .name h2 {
+    font-size: 18px;
+  }
+
+  .testimonal .name span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .testimonal .items {
+    padding: 15px;
+  }
+
+  .testimonal img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .testimonal p {
+    font-size: 13px;
+  }
+
+  .testimonal .name h2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* ----- Pour .price ----- */
+  .price .items {
+    padding: 20px;
+  }
+
+  .price h1 {
+    font-size: 35px;
+  }
+
+  .price h1 span {
+    font-size: 16px;
+  }
+
+  .price p {
+    font-size: 14px;
+    margin: 20px 0;
+  }
+
+  /* ----- Pour .faq ----- */
+  .faq .container {
+    max-width: 90%;
+    padding: 0 10px;
+  }
+
+  .faq button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .faq p {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .faq h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Encore plus petit pour téléphone */
+  .price h1 {
+    font-size: 30px;
+  }
+
+  .price h1 span {
+    font-size: 14px;
+  }
+
+  .price p {
+    font-size: 13px;
+  }
+
+  .faq h2 {
+    font-size: 16px;
+  }
+
+  .faq p {
+    font-size: 13px;
+  }
+}

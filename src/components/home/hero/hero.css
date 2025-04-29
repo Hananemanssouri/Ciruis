@@ -24,20 +24,28 @@
 
 
   }
-  @media screen and (max-width:768px) {
-    .margin {
-      height: 40vx;
-  
-    }
-    .hero {
-      background-position: right;
-      padding-top: 50%;
-      height: 80vh;
-
-    }
-    .hero .row{
-      width: 100%;
-      
-    }
-    
+  /* Correction responsive */
+@media screen and (max-width: 768px) {
+  .margin {
+    height: 40vh; /* Correction ici */
   }
+  
+  .hero {
+    background-position: right center;
+    padding-top: 50%;
+    height: 80vh;
+  }
+  
+  .hero .row {
+    width: 100%;
+  }
+}
+
+/* Optionnel : encore plus responsive pour très petits écrans */
+@media screen and (max-width: 480px) {
+  .hero {
+    padding-top: 60%;
+    height: 70vh;
+    background-attachment: scroll; /* pour éviter bugs mobiles */
+  }
+}

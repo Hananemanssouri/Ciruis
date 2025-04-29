@@ -112,3 +112,85 @@
   .online .box:hover h1 {
     color: #fff;
   }
+  /* Mobile (max-width: 576px) */
+@media screen and (max-width: 576px) {
+  .coursesCard {
+    padding: 30px 0;
+  }
+  .coursesCard .items {
+    padding: 20px;
+  }
+  .coursesCard .text h1 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .coursesCard .rate {
+    margin: 15px 0;
+  }
+  .coursesCard .details .dimg img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  .coursesCard .price {
+    margin: 20px 0;
+    padding: 8px;
+  }
+  .online .box {
+    padding: 20px 15px;
+  }
+  .online h1 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .online span {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+  .online .img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Tablette (between 577px and 1024px) */
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+  .coursesCard {
+    padding: 40px 0;
+  }
+  .coursesCard .items {
+    padding: 25px;
+  }
+  .coursesCard .text h1 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .coursesCard .details .dimg img {
+    width: 45px;
+    height: 45px;
+    margin-right: 18px;
+  }
+  .online .box {
+    padding: 25px 20px;
+  }
+  .online h1 {
+    font-size: 19px;
+    line-height: 28px;
+  }
+}
+
+/* Petits ajustements pour écran max-width 768px */
+@media screen and (max-width: 768px) {
+  .coursesCard .img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+  }
+  .coursesCard .items {
+    text-align: center;
+  }
+  .online .img {
+    width: 70px;
+    height: 70px;
+  }
+}

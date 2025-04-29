@@ -75,3 +75,60 @@
       height: 50vh;
     }
   }
+  /* Mobile (max-width: 576px) */
+@media screen and (max-width: 576px) {
+  .aboutHome .right {
+    padding: 40px 20px;
+  }
+  .aboutHome .item {
+    padding: 15px;
+  }
+  .aboutHome .item h2 {
+    font-size: 18px;
+  }
+  .aboutHome img {
+    width: 50px;
+    height: 50px;
+  }
+  .awrapper h1 {
+    font-size: 30px;
+  }
+  .awrapper h3 {
+    font-size: 16px;
+  }
+  .awrapper .box {
+    padding: 40px 0;
+  }
+}
+
+/* Tablette (between 577px and 1024px) */
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+  .aboutHome .right {
+    padding: 60px 30px;
+  }
+  .aboutHome .item {
+    padding: 18px;
+  }
+  .aboutHome .item h2 {
+    font-size: 19px;
+  }
+  .awrapper h1 {
+    font-size: 40px;
+  }
+  .awrapper h3 {
+    font-size: 18px;
+  }
+}
+
+/* Ajustement pour petits écrans type tablette en mode portrait */
+@media screen and (max-width: 768px) {
+  .aboutHome .left img {
+    height: auto;
+  }
+  .aboutHome .items {
+    margin-top: 30px;
+  }
+  .aboutHome .item {
+    margin-top: 20px;
+  }
+}

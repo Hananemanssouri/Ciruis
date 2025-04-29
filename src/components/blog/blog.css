@@ -33,4 +33,36 @@
   .blog p {
     color: grey;
   }
-  
+  /* Mobile (max-width: 576px) */
+@media screen and (max-width: 576px) {
+  .blog text {
+    padding: 20px 15px;
+  }
+  .blog h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .blog span label {
+    font-size: 12px;
+  }
+  .blog p {
+    font-size: 14px;
+  }
+}
+
+/* Tablette (between 577px and 1024px) */
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+  .blog text {
+    padding: 30px 20px;
+  }
+  .blog h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .blog span label {
+    font-size: 13px;
+  }
+  .blog p {
+    font-size: 15px;
+  }
+}

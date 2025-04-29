@@ -152,19 +152,79 @@ p{
   background-color: #fff;
 }
 @media screen and (max-width: 768px) {
+  /* Ajustement de la grille pour les petits écrans */
+  .grid,
   .grid2,
-  .grid3,
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr); /* Passer à 2 colonnes */
+    grid-gap: 20px; /* Réduire l'espacement entre les éléments */
   }
-  
+
+  /* Ajustement du fond de la section "back" */
   .back {
     background-position: center;
-    padding-top:50% ;
-    height: 80vh;
+    padding-top: 50%; /* Ajuster le padding pour un meilleur alignement */
+    height: 80vh; /* Réduire la hauteur pour les écrans mobiles */
   }
-  .marigin{
-    margin-top: 85%;
+
+  .back h1 {
+    font-size: 50px; /* Réduire la taille du titre pour qu'il tienne bien sur mobile */
+  }
+
+  .back h2 {
+    font-size: 14px; /* Adapter la taille du texte sur petits écrans */
+  }
+
+  /* Ajustement de la margine pour l'élément .marigin */
+  .marigin {
+    margin-top: 85%; /* Ajuster la marge pour un meilleur placement sur mobile */
+  }
+
+  /* Reduire la taille du texte du paragraphe */
+  p {
+    font-size: 16px; /* Réduire la taille de la police sur les petits écrans */
+  }
+
+  /* Ajuster la taille des boutons pour les écrans mobiles */
+  button {
+    padding: 12px 20px; /* Réduire l'espace à l'intérieur des boutons */
+    font-size: 14px; /* Réduire la taille du texte */
+  }
+
+  /* Ajustement de la largeur du bouton outline */
+  .outline-btn {
+    width: 100%; /* S'assurer qu'il occupe toute la largeur de l'écran */
+  }
+
+  /* Grilles supplémentaires */
+  .grid2 {
+    grid-template-columns: 1fr; /* Passer à une seule colonne sur mobile */
+  }
+
+  /* Ajouter de l'espace autour des éléments */
+  .padding {
+    padding: 60px 0; /* Réduire l'espace vertical sur les écrans plus petits */
   }
 }
+
+/* Pour les très petits écrans comme les téléphones */
+@media screen and (max-width: 480px) {
+  .back h1 {
+    font-size: 30px; /* Réduire encore la taille du titre pour les très petits écrans */
+  }
+
+  .back h2 {
+    font-size: 12px; /* Ajuster la taille du texte */
+  }
+
+  .container {
+    max-width: 95%; /* Augmenter la largeur de la container sur les petits écrans */
+  }
+
+  button {
+    padding: 10px 15px; /* Réduire encore le padding des boutons */
+    font-size: 12px; /* Réduire la taille de la police */
+  }
+}
+
 

@@ -43,3 +43,83 @@
     background-color: #1eb2a6;
     color: #fff;
   }
+  /* --- Ajustements pour la section .price --- */
+@media screen and (max-width: 768px) {
+  .price .items {
+    padding: 20px;  /* Réduire le padding pour mieux ajuster sur petits écrans */
+    text-align: center;
+  }
+  .price h1 {
+    font-size: 30px;  /* Réduire la taille de police sur petits écrans */
+  }
+  .price h1 span {
+    font-size: 16px;  /* Réduire la taille de la span */
+  }
+  .price p {
+    margin: 20px 0;  /* Réduire l'espace autour du texte */
+  }
+
+  /* --- Ajustements pour la section .faq --- */
+  .faq .container {
+    max-width: 90%;  /* Réduire la largeur du conteneur pour plus de flexibilité */
+  }
+  .faq button {
+    padding: 10px 15px;  /* Ajuster le padding pour plus de confort sur les petits écrans */
+  }
+  .faq h2 {
+    font-size: 18px;  /* Réduire la taille de titre */
+  }
+  .faq p {
+    padding: 10px;  /* Réduire l'espace autour des paragraphes */
+  }
+}
+/* --- Ajustements pour la section .price sur mobile --- */
+@media screen and (max-width: 480px) {
+  .price .items {
+    padding: 15px;  /* Réduire encore le padding pour les petits écrans */
+    text-align: center;
+  }
+  .price h1 {
+    font-size: 24px;  /* Réduire la taille de la police pour s'adapter aux petits écrans */
+  }
+  .price h1 span {
+    font-size: 16px;  /* Réduire encore la taille de la span */
+  }
+  .price p {
+    margin: 15px 0;  /* Réduire les marges */
+  }
+
+  /* --- Ajustements pour la section .faq sur mobile --- */
+  .faq .container {
+    max-width: 95%;  /* Réduire la largeur encore plus pour s'adapter aux petits écrans */
+  }
+  .faq button {
+    padding: 10px;  /* Réduire encore le padding pour une meilleure ergonomie */
+  }
+  .faq h2 {
+    font-size: 16px;  /* Réduire la taille de la police */
+  }
+  .faq p {
+    padding: 10px;  /* Réduire le padding pour compacter le texte */
+  }
+}
+
+/* --- Ajustements pour la section .team (si applicable sur mobile) --- */
+@media screen and (max-width: 480px) {
+  .team .items {
+    padding: 15px;  /* Réduire le padding des éléments de la team */
+  }
+  .team img {
+    width: 80%;  /* Réduire la taille de l'image */
+    height: auto;  /* Assurer que l'image garde ses proportions */
+  }
+  .team .details {
+    padding: 10px;  /* Réduire le padding des détails */
+  }
+  .team .details h2 {
+    font-size: 18px;  /* Réduire la taille de titre */
+  }
+  .team .details p {
+    font-size: 14px;  /* Réduire la taille du texte pour l'adapter aux petits écrans */
+  }
+}
