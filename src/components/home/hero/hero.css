@@ -39,6 +39,15 @@
   .hero .row {
     width: 100%;
   }
+  .title1{
+    /* font-size: xx-small;   */
+   margin-top: -110px;
+  }
+  .p11{
+    font-size: xx-small; 
+    display: none; 
+    /* display: none;   */
+  }
 }
 
 /* Optionnel : encore plus responsive pour très petits écrans */
@@ -47,5 +56,97 @@
     padding-top: 60%;
     height: 70vh;
     background-attachment: scroll; /* pour éviter bugs mobiles */
+  }
+  .title1{
+    /* font-size: xx-small;   */
+   margin-top: -30px;
+   font-size: small;
+  }
+  .p11{
+    font-size: xx-small; 
+    display: none; 
+    /* display: none;   */
+  }
+  .title1{
+    /* font-size: xx-small;   */
+   margin-top: -110px;
+  }
+  .p11{
+    font-size: xx-small; 
+    display: none; 
+    /* display: none;   */
+  }
+}
+@media screen and (max-width: 942px) {
+  .margin {
+    height: 40vh; /* Correction ici */
+  }
+  
+  .hero {
+    background-position: right center;
+    padding-top: 50%;
+    height: 80vh;
+  }
+  
+  .hero .row {
+    width: 100%;
+  }
+  .title1{
+    /* font-size: xx-small;   */
+   margin-top: -110px;
+  }
+  .p11{
+    font-size: xx-small; 
+    display: none; 
+    /* display: none;   */
+  }
+}
+@media screen and (max-width: 332px) {
+  .margin {
+    height: 40vh; /* Correction ici */
+  }
+  
+  .hero {
+    background-position: right center;
+    padding-top: 50%;
+    height: 80vh;
+  }
+  
+  .hero .row {
+    width: 100%;
+  }
+  .title1{
+    /* font-size: xx-small;   */
+   margin-top: -60px;
+  }
+  .p11{
+    font-size: xx-small; 
+    display: none; 
+    /* display: none;   */
+  }
+}
+@media screen and (max-width: 404px) {
+  .margin {
+    height: 40vh; /* Correction ici */
+  }
+  
+  .hero {
+    background-position: right center;
+    padding-top: 50%;
+    height: 80vh;
+  }
+  
+  .hero .row {
+    width: 100%;
+    
+  }
+  .title1{
+    /* font-size: xx-small;   */
+   margin-top: -20px;
+  }
+  .p11{
+    font-size: xx-small; 
+    display: none; 
+    /* display: none;   */
   }
 }
